@@ -5,7 +5,7 @@ body{
     background-color: #1f2937;
 }
 .main{
-
+display: flex;
 }
 .quote{
     background-color: #e5e7eb;
@@ -16,4 +16,10 @@ body{
 }
 footer{
 
+}
+.random{
+    width: 200px;
+    height: 200px;
+    border: blue;
+    border-radius: 10px;
 }
