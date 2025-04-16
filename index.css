@@ -4,17 +4,17 @@ body{
 .header{
     background-color: #1f2937;
 }
-.main{
-display: flex;
+.bulk{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 .quote{
     background-color: #e5e7eb;
-
-}
-.signup{
-
 }
 footer{
+    background-color: blue;
+    height: 100px;
 
 }
 .random{
@@ -22,4 +22,16 @@ footer{
     height: 200px;
     border: blue;
     border-radius: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.RandomImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
 }
