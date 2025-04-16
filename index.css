@@ -1,3 +1,19 @@
-h1{
-    background-color: blue;
+body{
+    font-family: Roboto;
+}
+.header{
+    background-color: #1f2937;
+}
+.main{
+
+}
+.quote{
+    background-color: #e5e7eb;
+
+}
+.signup{
+
+}
+footer{
+
 }
