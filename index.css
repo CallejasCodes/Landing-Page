@@ -6,6 +6,22 @@ header{
     color: #E5E7EB;
     font-size: 18px;
 }
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+}
 main{
     padding: 50px;
     display: flex;
@@ -20,9 +36,6 @@ footer{
     background-color: blue;
     height: 100px;
 
-}
-.signup{
-    background-color: #3882F6;
 }
 .random{
     width: 150px;
@@ -52,19 +65,26 @@ footer{
     font-weight: 900;
     color: #F9FAF8;
 }
-#logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
 section{
     background-color: #E5E7EB;
     display: flex;
 }
 .quote{
+    padding: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+}
+.signup{
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    padding: 10px;
+    background-color: #3882F6;
+    border-radius: 10px;
 }
