@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: Roboto;
 }
 header{
+    padding-top: 10px;
     padding-bottom:25px;
     padding-left: 100px;
     padding-right: 100px;
@@ -14,7 +19,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.logo {
+.logo{
     width: 48px;
     height: 48px;
     display: flex;
@@ -43,6 +48,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 35px;
 }
 #BottomImage{
     width: 300px;
@@ -92,16 +98,19 @@ section{
     justify-content: center;
 }
 .container{
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:125px;
+    padding-right:125px;
     background-color: #3882F6;
     border-radius: 10px;
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 125px;
 }
 .text2{
+    padding:10px;
     display: flex;
     flex-direction: column;
 }
