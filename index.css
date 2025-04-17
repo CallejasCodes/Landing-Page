@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(32, 98, 156);
     font-family: Roboto;
 }
 .header{
@@ -9,13 +10,20 @@ body{
     flex: 1;
     flex-direction: column;
 }
-.quote{
-    background-color: #e5e7eb;
+#BottomImage{
+    width: 400px;
+    height: 300px;
+}
+#quote{
+    background-color: #E5E7EB;
 }
 footer{
     background-color: blue;
     height: 100px;
 
+}
+.signup{
+    background-color: #3882F6;
 }
 .random{
     width: 200px;
