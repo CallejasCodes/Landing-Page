@@ -27,18 +27,25 @@ footer{
 .random{
     width: 150px;
     height: 150px;
+    border: solid 5px #3882F6;
+    border-radius: 20px;
 }
 .RandomImages{
     display: flex;
     justify-content: space-between;
-    align-items: start;
     flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
 }
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 45px;
 }
 #hero {
     font-size: 48px;
